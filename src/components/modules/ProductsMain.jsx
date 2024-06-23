@@ -21,10 +21,10 @@ export function ProductsMain() {
     }, [])
 
     return (
-        <main className="p-5 flex flex-col gap-10 pt-32">
+        <main className="p-5 flex flex-col gap-10 md:pt-32">
             {
                 location.pathname === '/' &&
-                <section className="min-h-[80vh] bg-main-bg rounded text-white p-10 flex justify-start items-center">
+                <section className="min-h-[80vh] bg-main-bg bg-top rounded text-white p-10 flex justify-start items-center">
                     <div className="flex flex-col gap-2.5 bg-black/50 rounded p-5 w-fit">
                         <h1 className="text-3xl font-bold">
                             Novidades da temporada

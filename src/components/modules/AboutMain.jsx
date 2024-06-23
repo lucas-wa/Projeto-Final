@@ -10,7 +10,7 @@ export function AboutMain() {
   ]
 
   return (
-    <main className="p-5 flex flex-col gap-10 pt-32">
+    <main className="p-5 flex flex-col gap-10 md:pt-32">
       <h1 className='text-4xl font-semibold text-black/80 w-full text-center p-2.5 border-b-[1px] border-b-black/30'>Sobre nós</h1>
       <p className='text-center text-xl font-thin'>
         Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,

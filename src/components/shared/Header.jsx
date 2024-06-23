@@ -23,15 +23,15 @@ export function Header() {
     ];
 
     return (
-        <header className='p-5 flex justify-between items-center fixed bg-slate-100 w-full flex-wrap gap-10'>
+        <header className='p-5 flex justify-between items-center md:fixed bg-slate-100 w-full flex-wrap gap-10'>
             <NavLink to="/" className="text-3xl font-bold flex gap-2.5 justify-center items-center">
                 <img src={logo} alt="Ecommerce App" className="w-16 aspect-square" />
                 <span>
                     Ecommerce App
                 </span>
             </NavLink>
-            <nav>
-                <ul className='flex gap-5 text-lg'>
+            <nav className='w-full md:w-fit'>
+                <ul className='w-full flex gap-5 text-lg justify-center items-center md:w-fit'>
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <NavLink to={item.to} className="hover:text-black/100 text-black/70 transition-all" >
@@ -41,7 +41,7 @@ export function Header() {
                     ))}
                 </ul>
             </nav>
-            <div className='flex gap-2.5'>
+            <div className='flex gap-2.5 justify-center items-center w-full md:w-fit'>
                 {
                     userActions.map((item, index) => (
                         <NavLink key={index} to={item.to} className="transition-all ring-2 ring-black rounded py-1 px-2 text-sm hover:bg-black hover:text-white flex items-center gap-2">

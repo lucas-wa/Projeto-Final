@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export function LoginMain() {
     return (
-        <main className="flex-1 p-5 flex flex-col gap-10 pt-32 justify-center items-center">
+        <main className="flex-1 p-5 flex flex-col gap-10 md:pt-32 justify-center items-center">
             <h1 className='text-4xl font-semibold text-black/80 w-full text-center p-2.5 border-b-[1px] border-b-black/30'>Login</h1>
             <form className="w-full max-w-96 h-full flex flex-col gap-5 items-center justify-center">
                 <label className="w-full flex flex-col gap-2.5">

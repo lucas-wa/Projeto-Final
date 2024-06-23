@@ -16,7 +16,7 @@ export function CartMain() {
     ]
 
     return (
-        <main className="flex-1 p-5 flex flex-col gap-10 pt-32 justify-center items-center">
+        <main className="flex-1 p-5 flex flex-col gap-10 md:pt-32 justify-center items-center">
             <h1 className='text-4xl font-semibold text-black/80 w-full text-center p-2.5 border-b-[1px] border-b-black/30'>Carrinho</h1>
             <div className="flex gap-5">
                 {
